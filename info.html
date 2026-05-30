@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <title>Personal Info</title>
+    <script src="https://kit.fontawesome.com/b3aacb7c58.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Poppins:wght@200&display=swap');
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins' , sans-serif;
+        }
+        #pi{
+            background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,1)),url("BG.jpg");
+    background-size: cover ;
+    background-position: center;
+    flex-direction: column;
+        }
+        body{
+            background-color: rgb(39, 36, 36);
+        }
+        section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+        .container{
+            width: 100%;
+            height: auto;
+            text-align: center;
+            margin-top: 0px;
+        }
+        .content-section .title{
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+            border-bottom: 3px solid rgb(255, 0, 0);
+        }
+        .content-section .content span{
+            margin-top: 20px;
+            font-size: 18px;
+            color: rgb(255, 177, 177);
+            text-align-last: justify;
+        }
+        .content-section .content p{
+            margin-top: 20px;
+            font-size: 18px;
+            color: white;
+            font-weight: bold;
+            text-align-last: justify;
+        }
+        .content-section1 .title{
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+            border-bottom: 3px solid rgb(255, 0, 0);
+            text-align: center;
+        }
+        .content-section1 .content1 h1{
+            color: rgb(184, 0, 0);
+            font-weight: bold;
+        }
+        #edu{
+            background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,1)),url("bg5.jpg");
+    background-size: cover ;
+    background-position: center;
+    flex-direction: column;
+        }
+        #navbarSupportedContent .nav-item{
+            border-bottom: 2px solid transparent;
+        }
+        #navbarSupportedContent .nav-item:hover{
+            border-bottom: 2px solid rgb(181, 0, 0);
+            transition: .7s;
+        }
+        @media screen and (max-width: 768px){
+            #navbarSupportedContent .nav-item{
+            border: 2px solid transparent
+        }
+        #navbarSupportedContent .nav-item:hover{
+            background-color: #a52a2a;
+            font-weight: bold;
+            color: white;
+            transition: .7s;
+        }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html" style="font-weight: bold; letter-spacing:1px; font-size: 20px;"><span style="color: red;">H</span>ARISH</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#pi">Personal Details</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#edu">Education/Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Certification</a>
+              </li>
+            </ul>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <section id="pi">
+        <div class="container">
+            <div class="content-section">
+                <div class="title" style="font-weight: bold;"><span style = "color: rgb(255, 0, 0); font-weight: bold;">Personal</span> details</div>
+                <div class="content">
+                    <p><span>Name</span> K.Harish_Kumar</p>
+                    <p><span>Age</span> 23</p>
+                    <p><span>Father's_Name</span> S.Kali_Muthu</p>
+                    <p><span>Mother's_Name</span> K.Muthu_Mari</p>
+                    <p><span>DOB</span> 01/12/2002</p>
+                    <p><span>Blood_Group</span> B+ve</p>
+                    <p><span>Languages_Known</span> English,Tamil</p>
+                    <p><span>Place</span> Coimbatore</p>
+                    <p><span>Pin_Code</span> 641032</p>
+                    <p><span>Phone</span> +919600408324</p>
+                    <p><span>Mail</span>  harishkumar67702@gmail.com</p>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section id="edu">
+        <div class="container1">
+            <div class="content-section1">
+                <div class="title  m-5" style="font-weight: bold;">Education</div>
+                <div class="content1" style="color: white;">
+                    <h1>SSLC</h1>
+                    <p>-Kamak Matriculation Higher Secondary School</p>
+                    <p>-80%</p><br>
+                    <h1>HSC</h1>
+                    <p>-Ice King of King Higher Secondary School</p>
+                    <p>-55%</p><br>
+                    <h1>BE CSE</h1>
+                    <p>-Hindusthan College of Engineering and Technology</p>
+                    <p>-80%</p>
+                </div>
+            </div>
+        </div>
+      </section>
+      <footer style="background-color: gray;">
+        Copyright &#169; 2023 Harish Kumar. All Rights Reserved
+      </footer>
+</body>
+</html>
